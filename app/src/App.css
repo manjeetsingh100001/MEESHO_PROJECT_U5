@@ -1,0 +1,96 @@
+ .App_pro{
+   width: 90%;
+ 
+   margin: auto;
+   
+   
+ }
+ 
+ .pro_div{
+   
+    
+   height: 600px;
+   
+   width: 320px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ border: 0.5px solid gainsboro;
+  
+ 
+  
+ }
+ .pro_con{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+ }
+   
+ .pro_img{
+   width: 320px;
+   height: 300px;
+   margin-left: 0px; 
+   border-radius: 10px;
+ }
+ .dis10{
+   color: rgb(119, 156, 62);
+   margin-top:24px ;
+   margin-left: 17px;
+ }
+ .rating_pro{
+   display: flex;
+   margin-top: -10px;
+ }
+ .pro_price{
+   display: flex;
+ }
+ .org{
+  text-decoration: line-through;
+ }
+ .single_pro{
+   height: 500px;
+   
+   
+ }
+ .price{
+  margin-left: 20px;
+  margin-top: px;
+ }
+ .rate{
+   padding: 3px;
+   border-radius: 15px;
+   background-color: rgb(31, 209, 31);
+ }
+  
+  .pro_pri{
+    display: flex;
+  }
+  .discount{
+    text-decoration: line-through;
+    margin-left: 14px;
+    margin-top: 24px;
+    color: gray;
+  }
+  .reviews{
+    margin-top: 34px;
+    margin-left: 10px;
+  }
+
+  .freee{
+ 
+    background-color: rgb(233,232,222);
+     width: 93px;
+
+     border-radius: 8px;
+  }
+
+  .fa-percent {
+    padding: 4px;
+    border-radius: 10px;
+    
+    background-color:rgb(117,186,117);
+  }
+
+  .fa-solid fa-indian-rupee-sign{
+    width: 5pX;
+  }
