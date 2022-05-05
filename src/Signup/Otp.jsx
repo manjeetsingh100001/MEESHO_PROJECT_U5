@@ -1,13 +1,11 @@
 import { Alert, Snackbar } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import { Redirect } from 'react-router-dom'
-// import { TransitionDown } from './Seller Portal/AddProductPage'
 import "./SignUp.css"
 
+
 export const Otp = () => {
-    // const ran = ()=>{
-    //     return Math.floor(Math.random() *10)
-    // }
+ 
     const [otpIs, setOtp] = useState([])
     const [isOpen, setIsOpen] = useState(true);
     const otp = new Array(6).fill(0).map(() => Math.floor(Math.random() * 10))

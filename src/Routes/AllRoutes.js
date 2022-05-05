@@ -1,13 +1,9 @@
 import { Route, Switch } from "react-router-dom";
 import { createBrowserHistory } from 'history';
-// import CartRoutes from "./CartRoutes";
-import NavBar from "../Components/NavBar/Navbar.module";
-// import Home from "../Pages/home";
-// import Category from "../Pages/catagorypage"
-import { SignUp } from "../Signup/SignUp";
-// import { Productadd } from "../Pages/Productadd";
 import { Otp } from "../Signup/Otp";
-// import AddProductPage from "../Pages/Seller Portal/AddProductPage";
+import NavBar from "../Components/NavBar/Navbar.module";
+import { SignUp } from "../Signup/SignUp";
+
 
 const newHistory = createBrowserHistory();
 const AllRoutes = ()=>{
@@ -26,22 +22,7 @@ const AllRoutes = ()=>{
                         <Otp />
                     </Route>
                     
-                    {/* <Route exact={true} path="/cat">
-                        <NavBar/>
-                        <Category/>
-                    </Route>
-                    
-                    <Route exact={true} path="/product/:id">
-                        <NavBar/>
-                        <Productadd />
-                    </Route>
-                    <Route exact={true} path="/seller">
-                        <NavBar />
-                        <AddProductPage />
-                    </Route>
-                    <Route path="/cart">
-                        <CartRoutes />
-                    </Route> */}
+                 
                 </Switch>
         </>
     )
